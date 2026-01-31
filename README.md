@@ -54,7 +54,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import prependSingletonDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-prepend-singleton-dimensions@deno/mod.js';
+import prependSingletonDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-prepend-singleton-dimensions@v0.1.0-deno/mod.js';
 ```
 
 #### prependSingletonDimensions( x, n )
@@ -105,7 +105,7 @@ The function accepts the following arguments:
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import prependSingletonDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-prepend-singleton-dimensions@deno/mod.js';
+import prependSingletonDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-prepend-singleton-dimensions@v0.1.0-deno/mod.js';
 
 var x = uniform( [ 3, 3, 3 ], -10.0, 10.0 );
 console.log( ndarray2array( x ) );
